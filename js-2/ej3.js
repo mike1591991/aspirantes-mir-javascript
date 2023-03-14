@@ -1,13 +1,11 @@
 function maxIndex(arreglo) {
   let index = -1;
   let mayor = 0;
-  let i = 0;
-  while (i<arreglo.length) {
+  for (let i = 0; i < arreglo.length; i++) {
     if (arreglo[i] >= mayor) {
-      mayor = arreglo[i]
-      index = i
+    mayor = arreglo[i];
+    index = i;
     }
-    i++
   }
   return index;
 }

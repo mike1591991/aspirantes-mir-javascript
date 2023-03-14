@@ -1,9 +1,7 @@
 function sum(arreglo) {
   let suma = 0;
-  let i = 0;
-  while (i<arreglo.length) {
-    suma += arreglo[i]
-    i++
+  for (let i = 0; i < arreglo.length; i++) {
+    suma += arreglo[i];
   }
   return suma;
 }

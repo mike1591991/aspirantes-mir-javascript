@@ -1,9 +1,7 @@
 function join(arreglo) {
-  let i = 0;
   let st = "";
-  while (i<arreglo.length) {
+  for (let i = 0; i < arreglo.length; i++) {
     st = st + arreglo[i] + " "
-    i++
   }
   return st;
 }
